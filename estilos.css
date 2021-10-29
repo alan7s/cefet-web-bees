@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient( 0deg, rgba(50, 205, 50, 0.712), rgba(255, 255, 0, 0.39), rgb(215, 255, 252) );
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    background-attachment: fixed;
+}
+p{
+    text-align: justify;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
