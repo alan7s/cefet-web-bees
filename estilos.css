@@ -21,6 +21,7 @@ p{
     border: 1px solid #fcc32b;
     padding: 20px;
     border-radius: 10px;
+    clear: both;
 }
 
 .curiosidade img{
@@ -37,9 +38,11 @@ p{
 .esquerda {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
 
   .direita {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
