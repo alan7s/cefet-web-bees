@@ -46,3 +46,29 @@ p{
     box-shadow: 4px 4px 4px #0003;
     padding: 30px;
 }
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold
+}
+a:active{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
+    text-decoration: none;
+}
+a[href^="http"]{
+    background-color: rgba(226, 255, 215, 0.281);
+}
+p:last-of-type{
+    text-align: right;
+}
+img:not(img[alt]){
+    border: 5px solid #fc2b2b;
+}
