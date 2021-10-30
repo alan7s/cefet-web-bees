@@ -20,7 +20,6 @@ p{
     border: 1px solid #fcc32b;
     padding: 20px;
     border-radius: 10px;
-    clear: both;
 }
 .curiosidade img{
     margin-right: 20px;
@@ -37,8 +36,8 @@ p{
     margin-bottom: 20px;
   }
 .direita {
-    float: left;
-    margin-right: 20px;
+    float: right;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 #cabecalho{
@@ -71,4 +70,7 @@ p:last-of-type{
 }
 img:not(img[alt]){
     border: 5px solid #fc2b2b;
+}
+#clear-flutuacao{
+    clear: both;
 }
